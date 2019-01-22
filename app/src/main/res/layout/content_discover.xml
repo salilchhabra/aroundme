@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.salil.aroundme.discover"
+    tools:showIn="@layout/app_bar_discover">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:text="BANKS"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t1"
+                />
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/bank"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="1"></ImageView>
+            <TextView
+                android:text="ATM"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t2"
+
+                />
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/arm"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="2"
+                />
+            <TextView
+                android:text="BAKERY"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t3"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/bakery"
+                android:onClick="findmap"
+                android:scaleType="fitXY"
+                android:tag="3"
+                />
+            <TextView
+                android:text="AIRPORT"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t4"
+
+                />
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/airport"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="4"/>
+            <TextView
+                android:text="CAFE"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t5"
+
+                />
+            <ImageView
+                android:id="@+id/i5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/cafe"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="5"/>
+            <TextView
+                android:text="HOSPITAL"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t6"
+
+                />
+            <ImageView
+                android:id="@+id/i6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/hospital"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="6"/>
+            <TextView
+                android:text="HOTEL"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t7"
+
+                />
+            <ImageView
+                android:id="@+id/i7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/hotel"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="7"/>
+            <TextView
+                android:text="RETAURANTS"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t8"
+
+                />
+            <ImageView
+                android:id="@+id/i8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/restaurant"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="8"/>
+            <TextView
+                android:text="SCHOOLS"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t9"
+
+                />
+            <ImageView
+                android:id="@+id/i9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/school"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="9"/>
+            <TextView
+                android:text="MUSEUM"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t10"
+
+                />
+            <ImageView
+                android:id="@+id/i10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/museum"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="10"/>
+            <TextView
+                android:text="ZOO"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t11"
+
+                />
+            <ImageView
+                android:id="@+id/i11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/zoo"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="11"/>
+            <TextView
+                android:text="DENTIST"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t12"
+
+                />
+            <ImageView
+                android:id="@+id/i12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/dentist"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="12"/>
+            <TextView
+                android:text="SALOON AND SPA"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t13"
+
+                />
+            <ImageView
+                android:id="@+id/i13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/saloon"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="13"/>
+            <TextView
+                android:text="GYM"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t14"
+
+                />
+            <ImageView
+                android:id="@+id/i14"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/gym"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="14"/>
+            <TextView
+                android:text="PHARMACY"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:id="@+id/t15"
+
+                />
+            <ImageView
+                android:id="@+id/i15"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@mipmap/pharmacy"
+                android:scaleType="fitXY"
+                android:onClick="findmap"
+                android:tag="15"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

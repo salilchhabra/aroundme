@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/cast_ic_mini_controller_play_large"
+            android:title="login" />
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/ic_menu_send"
+            android:title="register" />
+        <item
+            android:id="@+id/rating"
+            android:icon="@android:drawable/btn_star"
+            android:title="rate the app" />
+        <item
+            android:id="@+id/favourite_places"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="about us" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/places_ic_clear"
+            android:title="exit" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+                tools:ignore="AppCompatResource" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="feedback" />
+        </menu>
+    </item>
+
+</menu>

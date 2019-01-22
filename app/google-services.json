@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461245263891",
+    "firebase_url": "https://aroundme-2cafa.firebaseio.com",
+    "project_id": "aroundme-2cafa",
+    "storage_bucket": "aroundme-2cafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461245263891:android:ddad1c450ddfdb81",
+        "android_client_info": {
+          "package_name": "com.example.salil.aroundme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461245263891-1v9q64pioo2ul1a37pigtt13mcnmefda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salil.aroundme",
+            "certificate_hash": "5f5baff0abecfad623017ef192b6afbe9f80dc17"
+          }
+        },
+        {
+          "client_id": "461245263891-sgmvr5jgu4jakr4ocrsqvif5eosv9e7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_sl7t_eUKqfvwUZ6nhCVqg0arirt8CJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461245263891-sgmvr5jgu4jakr4ocrsqvif5eosv9e7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
